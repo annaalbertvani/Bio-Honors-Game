@@ -1,38 +1,37 @@
 body {
-  background: #ababe7;
+  background-color: #e6b6b3;
   font-family: monospace;
 }
 p {
-  color: darkblue;
+  color: black;
   border-style: groove;
+  border-color: brown;
   font-family: monospace;
 }
+
+
 h1 {
   font-weight: bold;
-  color: black;
-  border-style: double;
-}
-
-h2 {
-  color: red;
+  border-style: dashed;
+  border-color: brown;
   font-family: monospace;
 }
 
-h3 {
-  color: darkblue;
-
+button {
+  background-color: salmon;
+  font-family: monospace;
 }
 
-h4 {
-  color: darkblue;
-  border-style: groove
+img {
+  width:110px;
+  height:60px;
+  float: left;
 }
 
-
-.navbar {
-  border-style: double
+#biden {
+    float: right;
+    object-position: bottom
 }
-
 
 .retro-btn{
   /* filler code */  
@@ -42,7 +41,7 @@ h4 {
   cursor: pointer;
 
   /* style */
-  background-color: #888;
+  background-color: #b6a3a3;
   border-top: 2px white solid;
   border-left: 2px white solid;
   border-bottom: 2px #444 solid;
@@ -55,7 +54,5 @@ h4 {
   border-right: 2px white solid;
   border-top: 2px #444 solid;
   border-left: 2px #444 solid;
+
 }
-
-
-
